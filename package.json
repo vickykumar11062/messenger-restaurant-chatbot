@@ -1,0 +1,42 @@
+{
+  "name": "messenger-restaurant-chatbot",
+  "version": "1.0.0",
+  "description": "Build a Messenger restaurant chatbot using Node.js platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vickykumar11062/messenger-restaurant-chatbot.git"
+  },
+  "keywords": [
+    "messenger",
+    "chat",
+    "bot",
+    "nodejs",
+    "restaurant"
+  ],
+  "author": "Vicky Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickykumar11062/messenger-restaurant-chatbot/issues"
+  },
+  "homepage": "https://github.com/vickykumar11062/messenger-restaurant-chatbot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "moment": "^2.26.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
